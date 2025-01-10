@@ -67,5 +67,6 @@
         android:text="Cancel"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/rounded_corner"
-        android:backgroundTint="@color/button"/>
+        android:backgroundTint="@color/button"
+        android:onClick="adminCreateCommunityChallenge"/>
 </LinearLayout>

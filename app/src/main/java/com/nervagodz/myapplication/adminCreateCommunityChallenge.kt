@@ -23,5 +23,6 @@ class adminCreateCommunityChallenge: ComponentActivity() {
                 .show()
         val intent = Intent(this, adminDashboard::class.java)
         startActivity(intent)
+        finish()
     }
 }

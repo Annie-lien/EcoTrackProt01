@@ -26,10 +26,6 @@ class residentDashboard: ComponentActivity() {
         startActivity(intent)
     }
 
-    fun goal(view: View){
-        val intent = Intent(this, residentGoal::class.java)
-        startActivity(intent)
-    }
 
     fun tipsAndResources(view: View){
         val intent = Intent(this, residentTipsAndResources::class.java)
