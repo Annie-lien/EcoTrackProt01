@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "676189303596",
+    "project_id": "ecotrackprot",
+    "storage_bucket": "ecotrackprot.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676189303596:android:4f86433446b6d654b5b289",
+        "android_client_info": {
+          "package_name": "com.nervagodz.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1M0FHTbXzrz5c-ku2XileJ3YnWhe9ffo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
