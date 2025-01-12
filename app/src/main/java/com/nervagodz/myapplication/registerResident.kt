@@ -19,6 +19,10 @@ class registerResident : ComponentActivity() {
         // Initialize FirebaseAuth
         mAuth = FirebaseAuth.getInstance()
     }
+    fun cancel(view: View) {
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+    }
 
     // Register User Function
     fun ResidentRegistration(view: View) {

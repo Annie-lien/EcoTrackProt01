@@ -10,6 +10,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+
         <TextView
             android:id="@+id/registerPrompt"
             android:layout_width="match_parent"
@@ -20,17 +21,28 @@
             android:layout_margin="40dp"/>
 
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full name" />
+        <EditText
+            android:id="@+id/etFull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Email" />
+            android:text="Email/Phone Number" />
 
         <EditText
             android:id="@+id/emailInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress|phone" />
 
         <TextView
             android:id="@+id/textView3"
@@ -44,6 +56,17 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPassword" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"/>
+
+        <EditText
+            android:id="@+id/etConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
 
         <Button
             android:id="@+id/button5"
@@ -59,9 +82,10 @@
             android:id="@+id/button6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cancel"
+            android:layout_marginTop="30dp"
             android:background="@drawable/rounded_corner"
             android:backgroundTint="@color/white"
-            android:layout_marginTop="30dp"/>
+            android:onClick="cancel"
+            android:text="Cancel" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
